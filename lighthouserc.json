@@ -19,12 +19,12 @@
     },
     "assert": {
       "assertions": {
-        "categories:performance": ["error", {"minScore": 0.8}],
-        "first-contentful-paint": ["error", {"maxNumericValue": 2000}],
-        "interactive": ["error", {"maxNumericValue": 5200}],
-        "speed-index": ["error", {"maxNumericValue": 4300}],
-        "resource-summary:script:size": ["error", {"maxNumericValue": 170000}],
-        "resource-summary:total:size": ["error", {"maxNumericValue": 300000}]
+        "categories:performance": ["warn", {"minScore": 0.8}],
+        "first-contentful-paint": ["warn", {"maxNumericValue": 2000}],
+        "interactive": ["warn", {"maxNumericValue": 5200}],
+        "speed-index": ["warn", {"maxNumericValue": 4300}],
+        "resource-summary:script:size": ["warn", {"maxNumericValue": 170000}],
+        "resource-summary:total:size": ["warn", {"maxNumericValue": 300000}]
       }
     }
   }
