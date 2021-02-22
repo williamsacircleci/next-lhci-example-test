@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\n\nfunction Some() {\n  return __jsx(\"div\", null, \"some random content\");\n}\n\nexport default Some;","map":null,"metadata":{},"sourceType":"module"}

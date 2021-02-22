@@ -1,0 +1,272 @@
+[
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.47,
+    "values": [
+      0.47,
+      0.06,
+      0.46
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://heycar.co.uk/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 2000,
+    "actual": 2130.4700000000003,
+    "values": [
+      2200.2090000000007,
+      8118.691000000001,
+      2130.4700000000003
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "first-contentful-paint",
+    "level": "warn",
+    "url": "https://heycar.co.uk/",
+    "auditTitle": "First Contentful Paint",
+    "auditDocumentationLink": "https://web.dev/first-contentful-paint/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 5200,
+    "actual": 14118.697499999997,
+    "values": [
+      14194.353000000006,
+      19414.206,
+      14118.697499999997
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://heycar.co.uk/",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 4300,
+    "actual": 5734.710876187566,
+    "values": [
+      5734.710876187566,
+      19108.967621626907,
+      6433.426655254175
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://heycar.co.uk/",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 170000,
+    "actual": 1263794,
+    "values": [
+      1263794,
+      1263997,
+      1264007
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "script.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 300000,
+    "actual": 1801372,
+    "values": [
+      1803146,
+      1803989,
+      1801372
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "total.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.5,
+    "values": [
+      0.46,
+      0.5,
+      0.46
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 5200,
+    "actual": 13817.458000000002,
+    "values": [
+      13823.789499999999,
+      13817.458000000002,
+      14419.3485
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 4300,
+    "actual": 5805.001140140058,
+    "values": [
+      6549.986079309974,
+      6109.387371880568,
+      5805.001140140058
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 170000,
+    "actual": 1195043,
+    "values": [
+      1195051,
+      1195269,
+      1195043
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "script.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 300000,
+    "actual": 1568872,
+    "values": [
+      1569740,
+      1568872,
+      1571360
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "total.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  },
+  {
+    "name": "minScore",
+    "expected": 0.8,
+    "actual": 0.26,
+    "values": [
+      0.26,
+      0.24
+    ],
+    "operator": ">=",
+    "passed": false,
+    "auditProperty": "performance",
+    "auditId": "categories",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi/a1"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 5200,
+    "actual": 13012.6475,
+    "values": [
+      13012.6475,
+      14246.972999999996
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "interactive",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi/a1",
+    "auditTitle": "Time to Interactive",
+    "auditDocumentationLink": "https://web.dev/interactive/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 4300,
+    "actual": 7252.7881039639515,
+    "values": [
+      7252.7881039639515,
+      7944.207772368051
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditId": "speed-index",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi/a1",
+    "auditTitle": "Speed Index",
+    "auditDocumentationLink": "https://web.dev/speed-index/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 170000,
+    "actual": 1195053,
+    "values": [
+      1195053,
+      1195267
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "script.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi/a1",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  },
+  {
+    "name": "maxNumericValue",
+    "expected": 300000,
+    "actual": 1905962,
+    "values": [
+      1905962,
+      1920832
+    ],
+    "operator": "<=",
+    "passed": false,
+    "auditProperty": "total.size",
+    "auditId": "resource-summary",
+    "level": "warn",
+    "url": "https://heycar.co.uk/audi/a1",
+    "auditTitle": "Keep request counts low and transfer sizes small",
+    "auditDocumentationLink": "https://web.dev/use-lighthouse-for-performance-budgets/"
+  }
+]
