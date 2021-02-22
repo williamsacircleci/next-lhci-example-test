@@ -3,7 +3,7 @@
     "upload": {
       "target": "lhci",
       "serverBaseUrl": "https://lighthouse-ci.sso.heycar.co.uk",
-      "token": "f8572b43-36ff-4728-88d6-7e2745ade142"
+      "token": "${LHCI_TOKEN}"
     },
     "collect": {
       "startServerCommand": "npm run start",

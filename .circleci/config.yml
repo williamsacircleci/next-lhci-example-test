@@ -78,10 +78,11 @@ jobs:
         - dependencies-{{ checksum "package.json" }}-{{ .Environment.CACHE_VERSION }}
         # fallback to using the latest cache if no exact match is found
         - dependencies-{{ .Environment.CACHE_VERSION }}
-    - run: sudo npm install -g @lhci/cli@0.3.x
+    - run: sudo npm install -g @lhci/cli@0.3
     - run:
         name: lhci autorun
         command: |
+          echo ${LHCI_TOKEN}
           lhci autorun
 
 workflows:
