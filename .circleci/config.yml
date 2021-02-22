@@ -82,7 +82,8 @@ jobs:
     - run:
         name: lhci autorun
         command: |
-          echo ${LHCI_TOKEN}
+          env
+          echo $LHCI_TOKEN
           lhci autorun
 
 workflows:
