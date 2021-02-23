@@ -3,6 +3,10 @@ defaults: &defaults
   docker:
   - image: circleci/node:12.1
 
+### ORBS
+orbs:
+  lighthouse-check: sebasrodriguez/lighthouse-check@0.1.0
+
 version: 2
 jobs:
   checkout_code:
@@ -67,8 +71,7 @@ jobs:
       - run: npm run test
 
   perf:
-    docker:
-    - image: circleci/node:12-browsers-legacy
+    executor: lighthouse-check/default
     working_directory: ~/repo
     steps:
     - attach_workspace:
@@ -82,6 +85,7 @@ jobs:
     - run:
         name: lhci autorun
         command: |
+          echo
           lhci autorun
 
 workflows:
